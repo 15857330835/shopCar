@@ -1,0 +1,34 @@
+.shopcar{
+    ul{
+        li{
+            padding: .15rem;
+            display: flex;
+            .pic{
+                img{
+                    width: 1rem;
+                }
+            }
+            .text{
+                margin-left: .1rem;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h3{
+                    text-align: left;
+                    font-size: .14rem;
+                    color: #333333;
+                    line-height: .2rem;
+                }
+                div{
+                    p{
+                        text-align: right;
+                        margin-bottom: .1rem;
+                        font-size: .15rem;
+                        color: #333333;
+                    }
+                }
+            }
+        }
+    }
+}

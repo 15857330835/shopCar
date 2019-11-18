@@ -1,0 +1,32 @@
+.content{
+    padding: .1rem;
+    h3{
+        text-align: left;
+        margin-bottom: .2rem;
+        font-size: .14rem;
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        li{
+            width: .9rem;
+            height: .9rem;
+            margin-bottom: .1rem;
+            a{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: .6rem;
+                    height: .6rem;
+                }
+                span{
+                    font-size: .12rem;
+                    color: #333333;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.details{
+    .pic{
+        img{
+            width: 100%;
+        }
+    }
+    .text{
+        padding: .15rem;
+        h3{
+            text-align: left;
+            font-size: .15rem;
+            color: #333333;
+            padding-bottom: .1rem;
+        }
+        p{
+            text-align: left;
+            font-size: .1rem;
+            color: #888888;
+            line-height: .2rem;
+            i{
+                font-size: .21rem;
+                color: #fc4d52;
+            }
+        }
+        .am-list{
+            margin: .1rem 0;
+        }
+        a{
+            width: 50%;
+            float: right;
+        }
+    }
+}
